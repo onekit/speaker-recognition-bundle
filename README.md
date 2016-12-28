@@ -48,14 +48,12 @@ parameters:
     recognition_api_endpoint: https://api.projectoxford.ai/spid/v1.0
     ocp_apim_subscription_key_1: 00000000000000000000000000000000
 ```
-![Copy OCP APIM SUBSCRIPTION KEY 1 from your Azure Portal account](https://raw.githubusercontent.com/onekit/speaker-recognition-bundle/master/Resources/public/img/key.png)
-
-
 Then type:  
 ``` bash
 php composer.phar install
 ```  
 to copy parameters from parameters.yml.dist to parameters.yml and enter correct Subscription Key.
+![Copy OCP APIM SUBSCRIPTION KEY 1 from your Azure Portal account](https://raw.githubusercontent.com/onekit/speaker-recognition-bundle/master/Resources/public/img/key.png)
 
 ### Step 4: Call Microsoft Speaker Recognition API endpoints from your own Controller
 
