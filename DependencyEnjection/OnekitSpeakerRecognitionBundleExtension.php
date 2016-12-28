@@ -19,6 +19,6 @@ class OnekitSpeakerRecognitionBundleExtension extends Extension
 
     public function getAlias()
     {
-        return 'platinum_pixs_aws';
+        return 'speaker_recognition';
     }
 }
