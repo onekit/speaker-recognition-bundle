@@ -1,24 +1,17 @@
 <?php
 namespace Onekit\SpeakerRecognitionBundle\DependencyInjection;
 
-use \Symfony\Component\Config\Definition\ConfigurationInterface,
-    \Symfony\Component\Config\Definition\Builder\TreeBuilder;
-
+use Symfony\Component\Config\Definition\Builder\TreeBuilder;
+use Symfony\Component\Config\Definition\ConfigurationInterface;
 class Configuration implements ConfigurationInterface
 {
+    /**
+     * {@inheritdoc}
+     */
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('imports');
-
-        $rootNode
-            ->prototype('array')
-            ->attribute('resource','../../vendor/onekit/speaker-recognition-bundle/Resources/config/services.yml')
-            ->end()
-            ->end()
-            ->end();
-
+        $treeBuilder->root('speaker_recognition');
         return $treeBuilder;
     }
-
 }
