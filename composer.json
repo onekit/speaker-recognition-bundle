@@ -30,7 +30,6 @@
   "autoload": {
     "psr-4": {
       "Onekit\\SpeakerRecognitionBundle\\": ""
-    },
-    "target-dir": "Onekit/SpeakerRecognitionBundle"
+    }
   }
 }
