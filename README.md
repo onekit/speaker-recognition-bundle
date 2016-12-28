@@ -48,10 +48,7 @@ parameters:
     recognition_api_endpoint: https://api.projectoxford.ai/spid/v1.0
     ocp_apim_subscription_key_1: 00000000000000000000000000000000
 ```
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 ![Copy OCP APIM SUBSCRIPTION KEY 1 from your Azure Portal account](https://raw.githubusercontent.com/onekit/speaker-recognition-bundle/master/Resources/public/img/key.png)
-
 
 
 Then type:  
