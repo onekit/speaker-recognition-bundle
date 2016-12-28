@@ -1,6 +1,6 @@
 <?php
 
-namespace Onekit\SpeakerRecognition\DependencyInjection;
+namespace Onekit\SpeakerRecognitionBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
