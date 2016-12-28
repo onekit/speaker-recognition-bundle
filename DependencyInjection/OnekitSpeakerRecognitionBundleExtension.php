@@ -1,6 +1,6 @@
 <?php
 
-namespace Onekit\SpeakerRecognitionBundle\DependencyInjection;
+namespace Onekit\SpeakerRecognition\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
@@ -8,7 +8,7 @@ use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
 
-class OnekitSpeakerRecognitionBundleExtension extends Extension
+class OnekitSpeakerRecognitionExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {
@@ -16,9 +16,4 @@ class OnekitSpeakerRecognitionBundleExtension extends Extension
         $loader->load('services.yml');
     }
 
-
-    public function getAlias()
-    {
-        return 'speaker_recognition';
-    }
 }
