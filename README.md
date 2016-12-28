@@ -63,7 +63,7 @@ To show your breadcrumbs on page simply add next in the template of you page:
 /**
  * @var SpeakerRecognitionManager
  */
-$speakerRecognitionManager = $this->get('manager.speaker_recognition');
+$speakerRecognitionManager = $this->get('speaker_recognition');
 $response = $speakerRecognitionManager->getAllProfiles();
 ```
 
