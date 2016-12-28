@@ -11,7 +11,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $treeBuilder->root('speaker_recognition');
+        $treeBuilder->root('speaker-recognition-bundle');
         return $treeBuilder;
     }
 }
