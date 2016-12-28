@@ -1,0 +1,36 @@
+{
+  "name": "onekit/speaker-recognition-bundle",
+  "type": "symfony-bundle",
+  "description": "Integrates Speaker Recognition API from Microsoft Cognitive Services with Symfony2.",
+  "keywords": ["symfony2", "speech", "speaker", "recognition", "verify", "identify", "enroll", "voice"],
+  "license": "MIT",
+  "authors": [{
+    "name" : "Aliaksandr Harbunou",
+    "email": "onekit@gmail.com",
+    "homepage": "http://1kit.net"
+  }],
+  "require": {
+    "php": ">=5.6",
+    "symfony/symfony": "2.*",
+    "guzzlehttp/guzzle": "6.2.2",
+    "symfony/http-foundation": "2.*",
+    "symfony/dependency-injection": "2.*",
+    "symfony/config": "2.*",
+    "ext-openssl": "*"
+  },
+  "suggest": {
+    "vich/uploader-bundle": "To add audio file as entity field"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1"
+    }
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Onekit\\SpeakerRecognitionBundle\\": ""
+    },
+    "target-dir": "Onekit/SpeakerRecognitionBundle"
+  }
+}
