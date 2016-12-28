@@ -8,7 +8,7 @@ use \Symfony\Component\Config\FileLocator;
 use \Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
 
-class OnekitSpeakerRecognitionExtension extends Extension
+class OnekitSpeakerRecognitionBundleExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {
