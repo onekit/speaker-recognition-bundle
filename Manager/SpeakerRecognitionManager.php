@@ -166,7 +166,8 @@ class SpeakerRecognitionManager
             if (isset($headers['Operation-Location'])) {
                 $operationUrl = $response->getHeaders()['Operation-Location'][0];
                 if ($operationUrl) {
-                    $operationId = substr($operationUrl, 50); //cut first url (dirty hack)
+                    $operationIdArray = explode('/',$operationUrl);
+                    $operationId = $operationIdArray[6];
                     $answer = json_encode(['operationId' => $operationId]);
                 }
             }
