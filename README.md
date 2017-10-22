@@ -68,7 +68,7 @@ $response = $speakerRecognitionManager->getAllProfiles();
 ```
 
 **Speaker Recognition API Reference:** 
-https://dev.projectoxford.ai/docs/services/563309b6778daf02acc0a508/operations/5645c3271984551c84ec6797
+https://westus.dev.cognitive.microsoft.com/docs/services/563309b6778daf02acc0a508/operations/5645c3271984551c84ec6797
 
 ###Trademarks notice
 *Microsoft Azure, Microsoft Cognitive Services are either registered trademarks or trademarks of Microsoft Corporation in the United States and other countries.*
